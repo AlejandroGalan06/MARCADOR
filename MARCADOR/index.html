@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="MARCADORES">
+        <div id="marcadorLocal">
+            <span id="localTexto"><span id="rojo">AKA</span><br><br><br>0<br></span>
+            <div class="botones">
+                <button id="local+1" onclick="masUno('local')">YUKO</button>
+                <button id="local+2" onclick="masDos('local')">WAZARI</button>
+                <button id="local+3" onclick="masTres('local')">IPPON</button><br><br>
+                <button id="localChui" onclick="amonestar('local')">CHUI</button>
+                <div class="chuis">
+                    <div class="amonestacionesl" id="chuiLocal1">.</div>
+                    <div class="amonestacionesl" id="chuiLocal2">.</div>
+                    <div class="amonestacionesl" id="chuiLocal3">.</div>
+                    <div class="amonestacionesl" id="chuiLocal4">.</div>
+                    <div class="amonestacionesl" id="chuiLocal5">.</div>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="marcadorVisitante">
+           <span id="visitanteTexto"><span id="azul">AO </span><br><br><br>0<br></span>
+            <div class="botones">
+                <button id="visitante+1" onclick="masUno('visitante')">YUKO</button>
+                <button id="visitante+2" onclick="masDos('visitante')">WAZARI</button>
+                <button id="visitante+3" onclick="masTres('visitante')">IPPON</button>
+                <br><br>
+                <button id="visitanteChui" onclick="amonestar('visitante')">CHUI</button>
+                <div class="chuis">
+                    <div class="amonestacionesv" id="chuiVisitante1">.</div>
+                    <div class="amonestacionesv" id="chuiVisitante2">.</div>
+                    <div class="amonestacionesv" id="chuiVisitante3">.</div>
+                    <div class="amonestacionesv" id="chuiVisitante4">.</div>
+                    <div class="amonestacionesv" id="chuiVisitante5">.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

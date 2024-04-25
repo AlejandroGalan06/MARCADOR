@@ -1,0 +1,57 @@
+*{
+    text-align: center;
+    font-size: 15px;
+}
+#MARCADORES{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#marcadorLocal{
+
+    background-color: red;
+    padding: 200px;
+    width: 500px;
+}
+#marcadorVisitante{
+
+    background-color: blue;
+    padding: 200px;
+    width: 500px;
+
+}
+#localTexto{
+    font-size: 30px;
+}
+#visitanteTexto{
+    font-size: 30px;
+}
+#rojo{
+    display: inline-block;
+    font-size: 30px;
+
+}
+#azul{
+    display: inline-block;
+
+    font-size: 30px;
+}
+.botones{
+    margin-top: 50px;
+    
+}
+.chuis{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.amonestacionesl{
+    border: 1px solid black;
+    width: 15px;
+    color: red;
+}
+.amonestacionesv{
+    border: 1px solid black;
+    width: 15px;
+    color: blue;
+}
